@@ -1,4 +1,4 @@
-1¡¢Æô¶¯ apache
+1. apache
 sudo apachectl start
 sudo apachecl -v
 
