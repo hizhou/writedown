@@ -1,0 +1,26 @@
+1¡¢Æô¶¯ apache
+sudo apachectl start
+sudo apachecl -v
+
+config
+/etc/apache2/httpd.conf
+
+DocumentRoot /Library/WebServer/Documents/
+Set to /Users/himac/Work/www
+
+sudo launchctl unload -w /System/Library/LaunchDaemons/org.apache.httpd.plist
+
+2. php
+
+config
+/etc/php.ini
+
+3. mysql 
+
+sudo /usr/local/mysql/support-files/mysql.server start
+sudo /usr/local/mysql/support-files/mysql.server stop
+
+vi .profile
+export PATH="/usr/local/mysql/bin:$PATH"
+
+source .profile
