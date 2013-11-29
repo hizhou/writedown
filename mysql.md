@@ -50,3 +50,19 @@ Description, check and repair of MyISAM tables.
 >
 >myisamchk E:\amp\mysql\data\mysql\user.MYI
 
+
+## Optimize
+
+### profiling
+
+check the bottleneck in IO or CPU
+
+> set profiling=1;
+
+> //do some query
+
+> show profiles;
+
+> show profile cpu , block io for query 1;
+
+### explain
