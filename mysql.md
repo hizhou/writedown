@@ -14,6 +14,14 @@
 **--tee** Append everything into outfile.
 >mysql -uroot --tee=E:\record.txt
 
+### in mysql>
+**查看用户的当前连接100个**
+show processlist;
+**查看所有用户的当前连接**
+show full processlist; 
+**状态**
+show status;
+
 ### mysqladmin
 
 **ping**  Check if mysqld is alive.
